@@ -12,3 +12,7 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+Packages/PackageTest/WindowsNoEditor/Coliseum.exe
+Packages/PackageTest/WindowsNoEditor/Coliseum/Content/Paks/Coliseum-WindowsNoEditor.pak
+Packages/PackageTest/WindowsNoEditor/Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe
+Packages/PackageTest/WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
