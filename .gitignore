@@ -42,3 +42,6 @@ Packages/Build 0.3.1/WindowsNoEditor/Coliseum/Content/Paks/Coliseum-WindowsNoEdi
 Packages/Build 0.3.1/WindowsNoEditor/Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe
 Packages/Build 0.3.1/WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
 Packages/Build 0.3.1.rar
+Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log
+Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log
+Packages/Build 0.3.1/WindowsNoEditor/Coliseum/Content/Movies/Intro RF.mp4

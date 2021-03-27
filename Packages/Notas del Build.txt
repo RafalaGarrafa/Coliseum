@@ -1,0 +1,12 @@
+Notas del Build 0.3.2	26/03/2021	21:30
+
+Espía:
+-Su Revelador ahora se comporta como projectil, rebota hasta que se detiene y despues se activa
+-El escáner ahora cambia de color cuando le falta poco para desaparecer
+-Agregue un mesh de pluma fuente para el explosivo que deja el espía al morir
+
+Hada:
+-Su almohada ahora se comporta como proyectil, no rebota mucho pero cuando se detiene se activa
+
+Clase:
+-Ya está agregada toda la lógica que hemos visto en clase hasta ahora para crear las sesiones
