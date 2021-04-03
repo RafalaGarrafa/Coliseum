@@ -1,12 +1,38 @@
-Notas del Build 0.3.2	26/03/2021	21:30
+Notas del Build 0.4	03/04/2021	05:09
+
+Bob:
+
+-Ahora, si con Bob mantienes el botón de habilidad, se pondra un indicador de donde estará el cubo cuando sea creado, si solo presionas y sueltas la tecla, se creará frente a tí.
+-El indicador no rota correctamente en este build, da vueltas a lo menso
+
+
+Lastimosa:
+
+-Cambie el dash de Lastimosa, ahora te impulsas hacia donde te estes moviendo. Falta debugguear un poco.
+
 
 Espía:
--Su Revelador ahora se comporta como projectil, rebota hasta que se detiene y despues se activa
--El escáner ahora cambia de color cuando le falta poco para desaparecer
--Agregue un mesh de pluma fuente para el explosivo que deja el espía al morir
 
-Hada:
--Su almohada ahora se comporta como proyectil, no rebota mucho pero cuando se detiene se activa
+-Cambie su cooldown de 25 a 15 segundos
 
-Clase:
--Ya está agregada toda la lógica que hemos visto en clase hasta ahora para crear las sesiones
+
+Bugs:
+
+-Parece que el bug de conexión multijugador del build pasado ya está solucionado. Funciona en mi máquina, pero falta ver si jala en otras. Las pruebas que hice fueron con Steam cerrado, no recordé que tenía que abrirlo, aunque si funcionaba correctamente 
+
+
+QoL:
+
+-Cambie la manera en la que funcionan las habilidades, ahora hay un evneto para "Habilidad Pressed" y otro para "Habilidad Released", para saber cuando se presiona la Q y cuando se suelta
+
+-Implementé NPC que caminan y pueden ser dañados hasta matarlos
+
+-Implementé un blueprint que muestra el daño que vas haciendo cuando le disparas a alguien, funciona con los enemigos y con los NPCs
+
+-Los NPC pueden morir y revivir
+
+-Agregue botones para hacer una partida en el campo de tiro
+
+-Agregue una bandera al objetivo para decirle si va a reaparecer o no, eso debería ayudar para evitar que las personas que se unan tarde no puedan agarrar arma
+
+-Añadi la intro con audio también
