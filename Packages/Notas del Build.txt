@@ -1,38 +1,18 @@
-Notas del Build 0.4	03/04/2021	05:09
+Notas del Build 0.4.1	13/04/2021	03:12
 
 Bob:
 
--Ahora, si con Bob mantienes el botón de habilidad, se pondra un indicador de donde estará el cubo cuando sea creado, si solo presionas y sueltas la tecla, se creará frente a tí.
--El indicador no rota correctamente en este build, da vueltas a lo menso
-
-
-Lastimosa:
-
--Cambie el dash de Lastimosa, ahora te impulsas hacia donde te estes moviendo. Falta debugguear un poco.
-
-
-Espía:
-
--Cambie su cooldown de 25 a 15 segundos
-
+-El Indicador del QBob ya rota correctamente
+-El QBob ya tiene un material aplicado que aparece y desaparece (se cambiará el color, pero olvide hacerlo para este build)
 
 Bugs:
 
--Parece que el bug de conexión multijugador del build pasado ya está solucionado. Funciona en mi máquina, pero falta ver si jala en otras. Las pruebas que hice fueron con Steam cerrado, no recordé que tenía que abrirlo, aunque si funcionaba correctamente 
+-Parece que ya porfin ahora si quedo solucionado el que a veces el cliente no viera correctamente la salud que le bajaba al host. Hice un Multicast en el evento Danar dentro del componente Salud.
 
+Cuando mando a llamar el evento Danar Server, lo hago depues de haber hecho un Switch Authority desde el output Authority
+
++Hay un bug en el Debug 1 Player, en el cual no te teletransporta al escenario final y te deja cambiar de personaje, debo checarlo para ver porque pasa esto. El 2v2 no lo he probado, pero el 1v1 funciona correctamente
 
 QoL:
 
--Cambie la manera en la que funcionan las habilidades, ahora hay un evneto para "Habilidad Pressed" y otro para "Habilidad Released", para saber cuando se presiona la Q y cuando se suelta
-
--Implementé NPC que caminan y pueden ser dañados hasta matarlos
-
--Implementé un blueprint que muestra el daño que vas haciendo cuando le disparas a alguien, funciona con los enemigos y con los NPCs
-
--Los NPC pueden morir y revivir
-
--Agregue botones para hacer una partida en el campo de tiro
-
--Agregue una bandera al objetivo para decirle si va a reaparecer o no, eso debería ayudar para evitar que las personas que se unan tarde no puedan agarrar arma
-
--Añadi la intro con audio también
+-Aplique una lógica para cambiar de personaje en el campo de tiro, sin embargo, no funciona bien, tiene un error que hace que cuando te cambies de personaje, tus balas no dañen a los enemigos. Solo funciona correctamente en el campo de tiro y cuando esta en el modo debug de un jugador. Si cambias de personaje con más de un jugador, no podrás dañar a tu enemigo. Aun trabajo en arreglar eso, pero no es prioridad
