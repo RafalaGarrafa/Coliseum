@@ -1,18 +1,24 @@
-Notas del Build 0.4.1	13/04/2021	03:12
+Notas del Build 0.5	16/04/2021	22:03
 
 Bob:
+-Se ha modificado la pasiva de Bob, ahora lanza 3 projectiles de comida en lugar de uno, creo que tiene más sentido, como si te aventara su lonche
+-Se ha cambiado el material del QBob de Azul a Amarillento
 
--El Indicador del QBob ya rota correctamente
--El QBob ya tiene un material aplicado que aparece y desaparece (se cambiará el color, pero olvide hacerlo para este build)
+Nuevas Armas:
+-Lima SMG, un arma de disparo muy veloz
+-Escopeta, una escopeta con 5 tiros
+
+Power Ups:
+Se han agregado 3 Power Ups, asi como un Objeto Especial que te brindará uno de los tres aleatoriamente
+
+-Curación: Te permite curarte 10 puntos de vida 3 veces
+-Acelerador: Al activarlo, cancela la espera para poder usar tu habilidad otra vez
+-Revivir: Al morir se verá un brillo, y, tienes 3 segundos para presionar el botón de Habilidad para poder revivirte con la mitad de la salud y 3 vidas
 
 Bugs:
 
--Parece que ya porfin ahora si quedo solucionado el que a veces el cliente no viera correctamente la salud que le bajaba al host. Hice un Multicast en el evento Danar dentro del componente Salud.
-
-Cuando mando a llamar el evento Danar Server, lo hago depues de haber hecho un Switch Authority desde el output Authority
-
-+Hay un bug en el Debug 1 Player, en el cual no te teletransporta al escenario final y te deja cambiar de personaje, debo checarlo para ver porque pasa esto. El 2v2 no lo he probado, pero el 1v1 funciona correctamente
+-Parece que el bug donde no funcionaba correctamente el Debug de 1 jugador en el escenario normal ya fue solucionado.
 
 QoL:
-
--Aplique una lógica para cambiar de personaje en el campo de tiro, sin embargo, no funciona bien, tiene un error que hace que cuando te cambies de personaje, tus balas no dañen a los enemigos. Solo funciona correctamente en el campo de tiro y cuando esta en el modo debug de un jugador. Si cambias de personaje con más de un jugador, no podrás dañar a tu enemigo. Aun trabajo en arreglar eso, pero no es prioridad
+-Cambios en la manera en que se hacen las animaciones para recargas y para disparos
+-Los segundos y la barra que te indican cuanto te falta para volver a utilizar tu habilidad ahora usan funciones determinadas, en vez de un binding
