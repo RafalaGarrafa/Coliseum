@@ -1,24 +1,8 @@
-Notas del Build 0.5	16/04/2021	22:03
-
-Bob:
--Se ha modificado la pasiva de Bob, ahora lanza 3 projectiles de comida en lugar de uno, creo que tiene más sentido, como si te aventara su lonche
--Se ha cambiado el material del QBob de Azul a Amarillento
-
-Nuevas Armas:
--Lima SMG, un arma de disparo muy veloz
--Escopeta, una escopeta con 5 tiros
-
-Power Ups:
-Se han agregado 3 Power Ups, asi como un Objeto Especial que te brindará uno de los tres aleatoriamente
-
--Curación: Te permite curarte 10 puntos de vida 3 veces
--Acelerador: Al activarlo, cancela la espera para poder usar tu habilidad otra vez
--Revivir: Al morir se verá un brillo, y, tienes 3 segundos para presionar el botón de Habilidad para poder revivirte con la mitad de la salud y 3 vidas
+Notas del Build 0.5.1	17/04/2021	20:47
 
 Bugs:
-
--Parece que el bug donde no funcionaba correctamente el Debug de 1 jugador en el escenario normal ya fue solucionado.
++El bug de falla de conexión seguia ahi en el 0.5.1, esperemos que se haya arreglado solo otra vez xd
 
 QoL:
--Cambios en la manera en que se hacen las animaciones para recargas y para disparos
--Los segundos y la barra que te indican cuanto te falta para volver a utilizar tu habilidad ahora usan funciones determinadas, en vez de un binding
+-Ahora los cofres pueden darte un arma específica o un arma aleatoria
+-Agregue una X en el HUD para indicar el boton de Power Up
