@@ -1,8 +1,20 @@
-Notas del Build 0.5.1	17/04/2021	20:47
+Notas del Build 0.5.2	23/04/2021	00:05
 
-Bugs:
-+El bug de falla de conexión seguia ahi en el 0.5.1, esperemos que se haya arreglado solo otra vez xd
+20/4
+Ahora puedes dispararle a la almohada para detonarla, cualquiera puede hacerlo
 
-QoL:
--Ahora los cofres pueden darte un arma específica o un arma aleatoria
--Agregue una X en el HUD para indicar el boton de Power Up
+21/4
+-Implementé Headshots, los tiros a la cabeza hacen más daño y dejan un numerito rojito
+-Implementé un nuevo Power Up: Escudo, te protege de balas por 10 segundos
+-Cambie el tiempo de reaparición del BP de Power Up, ahora es por default 30 seg, pero se puede cambiar independientemente por instancia
+-Cambie un Power Up: Curación ahora son Balas Curativas, al activarlas, la mitad el daño que se haga se recuperará en salud durante 7 seg
+-Implementé colores diferentes para el nombre del jugador: Azul es Equipo 1 y Rojo es Equipo 2
+-El nombre ya no es un texto 3d, ahora es parte del Widget de la vida
+-Cambie el HUD, lo acomodé más parecido al diseño de Anahí
+-Cambie las paredes de la arena, ahora son cubos con la textura de piedra
+-Ahora se imprime en consola el nombre de la persona que entra a la partida
+
+22/4
+-Ahora los NPC te persiguen y disparan cuando te ven, tambien tienen solo una vida pero reviven al morir
+-Añadi un Widget y un Efecto de aparición cuando se usa el Power Up de Escudo
+-Tambien agregue la posibilidad de que el BP de Power Ups pueda darte un Pwup aleatorio o específicado 
