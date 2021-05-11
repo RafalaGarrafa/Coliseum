@@ -1,6 +1,6 @@
-Notas del Build 0.5.3	25/04/2021	23:49
+Notas del Build 0.5.3.1	10/05/2021	18:10
 
 QoL:
-Ahora cuando matas a alguien, a esa persona le dice quien le mató, y a ti te aparece un mensaje de que le mataste
+Agregue los elevadores para la arena
 
-Cuando quedan solamente jugadores en un equipo, ese equipo ganará
+Parece que ya no hay errores al conectarse manualmente
