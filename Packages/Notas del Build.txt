@@ -1,57 +1,19 @@
 Notas del Build 1.0	29/05/2021	15:02
 
-12/05
-Incrementé balas de Lima de 20 a 33
-Baje daño de balas de Lima de 5 a 3
+27/05
+-Se han personalizado la textura de los brazos de cada personaje
+-Se cambio el modelo del revelador a una pluma
 
-Comence a implementar la lógica para que no puedas agarrar un power up si tienes uno activo o si tienes uno equipado, perp no funcinoa bien en el cliente
-
-Aumenté el tiempo de duración del power up de curación a 20s
-
-
-13/05
--Implemente lógica para que no puedas agarrar un power up mientras tienes otro activo, pero si puedes cambiar entre power ups mientras no actives el actual
--Ahora las armas y los power ups son independientes, tomar un arma ya no te dará un power up
--Quité que pudieras recargar con E
--Escodí el botón de padre en la selección de personaje
--Comence con la implementación de la vida para el escudo, tendrá cierta cantidad de vida y se romperá después de que esta se acabe, también cambiará de color dependiendo de la vida restante
--Cree un material traslúcido de colores para hacerlo de cristal bonito
--Quite el motion blur
--Implementé el circuito para ambos equipos
--Ahora los elevadores te lanzan en vez de elevarte suavemente
--Cambie los widgets a una carpeta destinada
--implementé un sistema para mostrar mensajes en pantalla, como para recargar, revivirte o avisar que inició la partida
--Hice más oscura el área oscura
--Hice que el aparato del espía revele enemigos al estar dentro, ya no cuando entra alguien más, también rebota mucho menos
--Agregue un mensaje de muerte
--Aumente un poco la velocidad al caminar
-
-14/05
-Agregué e implementé los siguientes sonidos:
--Disparos para los tipos de balas
--Sonido cuando explota la almohada
--Sonido para la explosión de daño
--Sonido para cuando el elevador te lanza hacia arriba
--Sonido cuando tus balas dañan a un enemigo
--Sonido cuando alguien se puede revivir
-
-17/05
--Se crearon nuevos materiales para los meshes del circuito
--Se han colocado 2 postProcesamientos para una mejor ambientación
--Corrección de colores en elevadores
--Acomodo de meshes en circuito y elevador
-
-18/05
--Agregue los sonidos con atenuación a las balas, y a la almohada, la explosión también lo tiene pero por alguna razón no se oye
--Cambie el Coliseo, ya no tiene los cubos todos raros
--Agregue las texturas de rostros al HUD para cada personaje, tambien las tarjetas de Q y X
--Se creó una nueva instancia del material de los brazos para el personaje de lastimosa.
-
-21/05
--Agregue los elementos del HUD para que se vea mejor
--Agregue iconos para los power ups
--Agregue que cuando se te acaba la municion, recargas automáticamente
-
-22/05
--Implementé una partícula nueva creada para el impacto de la comida
--Implementé la lógica para poner pausa, pero aun no está terminada
+28/05
+-Agregué un material de bala luminoso, y puse uno de diferente color para las balas de cafeína
+-Cambié el menú principal, ahora está un modelo de algún personaje, y este hace animaciones aleatorias
+-Terminé de cambiar el menú de selección de personaje
+-Terminé de implementar el menú principal
+-Implementé lógica a los NPC para que corran y disparen en el fondo del menú principal
+-Acomodé mejor algunos widgets para que se vean bien con el nuevo menú principal
+-Cambie la apariencia de los botones del menu principal, ahora se hacen grandes cuando pasas el mouse encima
+-Agregue un material para las balas curativas
+-Agregue el cambio de color al pressed del botón jugar dependiendo del personaje elegido
+-Puse los elevadores en Level Streaming, ahora desaparecen cuando se está en la arena
+-Cree un mapa para prácticas, y unos blueprints para mostar mensajes de ayuda
+-Cambie varios de los mensajes dentro de menús para que esten en español
